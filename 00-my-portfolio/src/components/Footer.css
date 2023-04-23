@@ -1,0 +1,19 @@
+footer{
+    background-color: greenyellow;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+   
+}
+
+.footerIcon {
+   
+    margin-right: 40px;
+    font-size:25px;
+}
+.footer-div{
+    margin:15px;
+    display:flex;
+    justify-content:center;
+}

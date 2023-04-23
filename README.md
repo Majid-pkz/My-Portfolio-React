@@ -15,7 +15,7 @@ This portfolio is a collection of my works that showcases my skills, experience,
 ## Mock-Up
 
 <p >
-    <img src="./00-portfolio-app/public/Mock.png">
+    <img src="00-my-portfolio/public/Mock.png">
 </p>
 
 

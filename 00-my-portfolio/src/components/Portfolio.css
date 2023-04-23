@@ -1,0 +1,52 @@
+grid-img {
+    
+    
+    }
+    .test{
+        background-color: brown;
+    }
+
+    .grid-card{
+        /* margin: 10px 200px 200px 100px; */
+        padding-left: 0px;
+       padding-top: 10px;
+       padding-left: 0px;
+
+    }
+    .section-marginal{
+        display: flex;
+        align-items: center;
+        margin-left: 200px;
+        display: flex;
+
+    }
+    .card{
+        margin: 60px;
+    }
+    .marginal{
+        margin:40px 0px 30px 40px;
+        text-align: left;   
+    }
+    .text{
+        color: aliceblue;
+    }
+    body{
+        background-color:#213A5D;
+        
+    }
+    img{
+        max-width: 400px;
+        filter:contrast(70%);
+    }
+    img:hover {
+        transform: scale(1.05);
+        filter:contrast(100%);
+      }
+      .icon-size{
+        font-size:36px;
+        padding-top: 5px;
+        margin-top: 10px;
+      }
+      .card-footer{
+        margin-left: 15px;
+      }

@@ -25,7 +25,7 @@ function Resume() {
   ];
 
   return (
-    <body className="marginal text">
+    <div className="marginal text">
       <h1 className="marginal text"> Resume </h1>
 
       <div>
@@ -53,7 +53,7 @@ function Resume() {
           </ul>
         </div>
       </div>
-    </body>
+    </div>
   );
 }
 

@@ -11,9 +11,12 @@ function AboutMe() {
   return (
     < >
       <h1 className="marginal text"> About me </h1>
+
+     
+      
       <div className="flexual">
         <Tooltip className="marginal-secondary">
-          <Avatar alt="Remy Sharp" src="./assets/cut.JPG" />
+          <Avatar alt="Remy Sharp"  src={require("../assets/cut.JPG")}/>  
         </Tooltip>
       </div>
 

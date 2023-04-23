@@ -10,6 +10,7 @@ function Portfolio() {
   return (
     <>
       <h1 className="marginal text">Portfolio</h1>
+      
 
       <Grid
         className="grid-card"
@@ -21,7 +22,7 @@ function Portfolio() {
           <CardMedia
             component="img"
             height="640"
-            image="blog.JPG"
+            image={require("../assets/blog.jpg")}
             alt="Tech-Blog image"
           />
           <div className="card-footer">
@@ -46,7 +47,7 @@ function Portfolio() {
           <CardMedia
             component="img"
             height="640"
-            image="../assets/job.png"
+            image={require("../assets/job.png")}
             alt="green iguana"
           />
 
@@ -72,7 +73,7 @@ function Portfolio() {
           <CardMedia
             component="img"
             height="640"
-            image="./assets/weather.webp"
+            image={require("../assets/weather.webp")}
             alt="green iguana"
           />
           <div className="card-footer">
@@ -97,7 +98,7 @@ function Portfolio() {
           <CardMedia
             component="img"
             height="640"
-            image="/note.jpg"
+            image={require("../assets/note.jpg")}
             alt="green iguana"
           />
           <div className="card-footer">

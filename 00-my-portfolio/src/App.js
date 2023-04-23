@@ -9,11 +9,20 @@ import "./components/Footer.css";
 import "./App.css";
 
 function App() {
+  let [currentPage, setCurrentPage] = useState("");
   return (
     <div className="App">
-      <ResponsiveAppBar></ResponsiveAppBar>
-     
-     
+      <ResponsiveAppBar setCurrentPage={setCurrentPage}></ResponsiveAppBar>
+
+      {currentPage === "About Me" || currentPage === "" ? <AboutMe /> : ""}
+      {currentPage === "Portfolio" ? <Portfolio /> : ""}
+      {currentPage === "Contact" ? <Contact /> : ""}
+      {currentPage === "Resume" ? <Resume /> : ""}
+
+      <footer>
+      
+        <Footer />
+      </footer>
     </div>
   );
 }

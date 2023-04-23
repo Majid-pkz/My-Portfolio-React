@@ -1,7 +1,8 @@
 import React from "react";
 //  MUI library to import various components from Material UI
-import { Grid, Card,CardActionArea,CardMedia,CardContent,Typography,IconButton,} from "@mui/material";
+import { Grid, Card,CardMedia,Typography} from "@mui/material";
 import "./Portfolio.css";
+
 
 import { FaGithub, } from "react-icons/fa";
 
@@ -20,8 +21,8 @@ function Portfolio() {
           <CardMedia
             component="img"
             height="640"
-            image="/blog.JPG"
-            alt="green iguana"
+            image="blog.JPG"
+            alt="Tech-Blog image"
           />
           <div className="card-footer">
             <a
@@ -45,7 +46,7 @@ function Portfolio() {
           <CardMedia
             component="img"
             height="640"
-            image="/job.png"
+            image="../assets/job.png"
             alt="green iguana"
           />
 
@@ -71,7 +72,7 @@ function Portfolio() {
           <CardMedia
             component="img"
             height="640"
-            image="/weather.webp"
+            image="./assets/weather.webp"
             alt="green iguana"
           />
           <div className="card-footer">

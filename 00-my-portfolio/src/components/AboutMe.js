@@ -13,7 +13,7 @@ function AboutMe() {
       <h1 className="marginal text"> About me </h1>
       <div className="flexual">
         <Tooltip className="marginal-secondary">
-          <Avatar alt="Remy Sharp" src="/cut.JPG" />
+          <Avatar alt="Remy Sharp" src="./assets/cut.JPG" />
         </Tooltip>
       </div>
 

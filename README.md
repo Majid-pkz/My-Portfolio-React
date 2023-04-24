@@ -15,8 +15,9 @@ This portfolio is a collection of my works that showcases my skills, experience,
 ## Mock-Up
 
 <p >
-    <img src="00-my-portfolio/public/Mock.png">
+    <img src="00-my-portfolio/src/assets/Mock.png">
 </p>
 
 
 ## Link to the application
+https://majid-pkz.github.io/My-Portfolio-React/
